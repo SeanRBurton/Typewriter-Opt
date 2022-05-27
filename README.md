@@ -7,4 +7,4 @@ If we lay the letters out left to right, then you can think of adding a letter t
 1) Pushing the assigned letters away from the unassigned letters by a distance of 1.
 2) Moving the new letter from the unassigned set to the assigned set.
 
-We can compute the change in cost independent of the order of the assigned letters, so we can use dynamic programming over assigned subsets. This reduces the complexity from n! to 2^n, and makes it possible to prove the optimal solution in just a few minutes.
+We can compute the change in cost independent of the order of the assigned letters, so we can use dynamic programming over assigned subsets. This reduces the complexity from n! to 2^n, and makes it possible to prove the optimal solution in less than 30 seconds.
